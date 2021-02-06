@@ -17,7 +17,6 @@ def likes_1(names):
         return names[0] + ', ' + names[1] + ' and ' + str(len(names) - 2) + ' others like this'
 
 
-
 def likes_2(names):
     n = len(names)
     return {
@@ -31,7 +30,7 @@ def likes_2(names):
 
 # like_names = ['Alex']
 
-like_names = ["Alex"]
+like_names = ["Alex", "Dan", "Yliya", "Valentina"]
 
 
-print(likes(like_names))
+print(likes_2(like_names))
